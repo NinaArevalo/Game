@@ -1,53 +1,116 @@
-# Game / ExcelRaincher
-Actividad - Desarrollo de un juego.
+🌾 ExcelRaincher
+🐔 Un mini‑juego de simulación agrícola creado por Crudzaso Games
+🎮 Descripción del juego
 
---- **Nombre del juego**: ExcelRaincher
+ExcelRaincher es el primer mini‑juego desarrollado por Crudzaso Games, un proyecto que combina diversión, estrategia y crecimiento. Te conviertes en un granjero que inicia con una humilde gallina y, a través de compras inteligentes y decisiones estratégicas, podrás hacer crecer tu propia granja.
 
---- **Descripcion:** En el proyecto buscamos generar el primer mini juego para la compañia Crudzaso Games, el nombre del primer juego se llama ExcelRaincher, con ExcelRaincher tendremos un juego de simulación agrícola, te conviertes en un granjero encargado de comprar y vender animales para hacer crecer tu granja. Al iniciar, recibes una gallina con la cual el usuario comienza a producir dinero mientras la mantienes en tu granja. A medida que pasa el tiempo, podrás reinvertir tus ganancias para adquirir nuevos animales, cada uno con diferentes niveles de producción. **El objetivo final es expandir tu granja lo más posible y reunir la mayor cantidad de animales para maximizar tus ganancias. **
+A medida que tus animales generan ganancias, podrás reinvertir tus ingresos para adquirir nuevos animales, cada uno con distintos niveles de producción.
 
---- **Intrucciones de ejecucion:**
+💡 Objetivo del juego:
+Expandir tu granja lo máximo posible y reunir la mayor cantidad de animales para maximizar tus ganancias.
 
-**¿Cómo jugar?**
-   **>Instala Visual Studio Code**
-       - Abra un explorador web y vaya a code.visualstudio.com.
-       - Descargue la versión del sistema operativo. Visual Studio Code es compatible con Windows, Linux y macOS.
-       - Una vez descargado, ejecute el instalador.
-       - Abre el VS code desde la terminal usando ctrl + alt + T y escribe la palabra "code"
-      Installar visualstudio code version 1.105.1
-   
-   **>Verificar el lenguaje de programacion intalado python**
-       - Ve al sitio web oficial de Python (python.org), busca la versión 3.12.3 y descargarlo
-       - Una vez descargado, abre el archivo instalador.
-       - para abrirlo despues de finalizar la instalacion debes hacerlo desde la terminal usando ctrl + alt + T y escribe la frese  "python --version" y deberia               mostrarte lo siguiente:   Python 3.12.3
-   
-   **> Descarga el juego**
-   Primero, baja el archivo del juego desde este repositorio (Enlace/Clonar este repositorio).
+🚀 ¿Cómo jugar?
+1️⃣ Instalar Visual Studio Code
 
-   **> Abre la carpeta del juego**
-   Entra donde guardaste los archivos.
+Ve a: code.visualstudio.com
 
-   **> Haz clic para empezar**
-   Busca el archivo del juego main.py y dale doble clic para abrirlo.
+Descarga la versión compatible con tu sistema operativo (Windows, Linux o macOS)
 
-   ¡Y listo!
+Ejecuta el instalador
 
-  El juego se abrirá y tendrás tu primera gallinita lista para darte monedas.
+Abre la terminal con Ctrl + Alt + T y escribe:
 
---- **librerias usadas:** 
-         **>> uuid** - identificador unico universal, es usado para identificadores de sesion. 
-         **>> getpass **- Solicita una contraseña al usuario de forma segura, ocultando los caracteres que el usuario va escribiendo para obtener la informacion sin brechas de seguridad. este fue usado durante la autenticacion del usuario al inicio de nuestro codigo
-haslib - 
-         **>> colorama** - Genera color al codigo segun la necesidad, en nuetrro caso agregamos color con el fin de una mejor visual. 
-random - Genera operaciones de aleatoriedad, durante el codigo se uso al momento de brindar una ganancia de forma aleatoria en un rango especifico.
-         **>> time** - Genera marcas de tiempo, sirve ara obtener fechas, en nuestro caso fue usada con el fin de contabilizar el tiempo del animal dentro de la granja.
-threading - Fue usado con el fin de activar diferentes tareas en paralelo.
-         **>> Os:** realiza la funcion de limpieza de la consola, es decir, cada que queremos cambiar de proceso dentro del juego, la informacion previa se limpia del sistema con el fin de una mejor visual.
+code
 
---- **Descripción de la gestión de información implementada:**
+Se recomienda usar la versión 1.105.1
 
-El juego gestiona la información relacionada con los animales que posee el jugador. Los animales disponibles actualmente son gallinas, pavos, cerdos, ovejas y vacas, cada uno con su propio costo, proceso de compra/venta y cantidad de dinero que genera con el tiempo.
+2️⃣ Verificar que tienes Python 3.12.3 instalado
 
-Toda esta información se organiza mediante diccionarios y librerias ademas de que se actualiza automáticamente cada vez que el jugador compra o vende un animal.
+Entra a: python.org
 
-Tambien, el sistema mantiene un registro del dinero disponible del jugador y calcula de forma continua las ganancias producidas por todos los animales.
-La información actualizada de la granja se muestra en pantalla, permitiendo al jugador tomar decisiones estratégicas sobre sus compras y su progreso dentro del juego.
+Descarga la versión Python 3.12.3
+
+Ejecuta el instalador
+
+Verifica la instalación con:
+
+python --version
+
+Deberías ver: Python 3.12.3
+
+3️⃣ Descargar el juego
+
+Clona o descarga este repositorio.
+
+4️⃣ Abrir el proyecto
+
+Dirígete a la carpeta donde se encuentren los archivos.
+
+5️⃣ Ejecutar el juego
+
+Abre el archivo principal:
+
+main.py
+
+¡Y listo! 🎉 Tendrás tu primera gallina lista para empezar a generar monedas.
+
+📚 Librerías utilizadas
+🔧 Dependencias principales
+
+uuid → Genera identificadores únicos de sesión.
+
+getpass → Solicita contraseñas ocultas para mayor seguridad.
+
+hashlib → Permite crear hash para verificar contraseñas.
+
+colorama → Añade color al juego para una visual más atractiva.
+
+random → Utilizado para generar ganancias aleatorias.
+
+time → Se usa para medir el tiempo activo de cada animal.
+
+threading → Permite procesar varias tareas en paralelo.
+
+os → Limpia la consola y mejora la navegación dentro del juego.
+
+🐄 Sistema de gestión de información
+
+El juego administra toda la información relacionada con la granja del jugador, incluyendo:
+
+🐾 Animales disponibles:
+
+Gallinas
+
+Pavos
+
+Cerdos
+
+Ovejas
+
+Vacas
+
+Cada uno cuenta con:
+
+Su propio costo 💰
+
+Proceso de compra y venta 🔄
+
+Un sistema de generación de dinero ⏳
+
+Toda esta información se gestiona mediante estructuras como diccionarios y funciones que actualizan el estado del juego en tiempo real.
+
+Además:
+
+Se lleva control del dinero disponible
+
+Se calculan las ganancias continuas generadas por todos los animales
+
+La información de la granja se actualiza en pantalla en tiempo real, facilitando decisiones estratégicas
+
+🧪 Estado del proyecto
+
+Este es el primer mini‑juego de la empresa y se encuentra en fase de desarrollo y mejora continua.
+
+👨‍💻 Desarrollado por
+
+Crudzaso Games
