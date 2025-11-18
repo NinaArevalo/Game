@@ -1,4 +1,4 @@
-# Game
+# Game / ExcelRaincher
 Actividad - Desarrollo de un juego.
 
 --- **Nombre del juego**: ExcelRaincher
@@ -8,7 +8,18 @@ Actividad - Desarrollo de un juego.
 --- **Intrucciones de ejecucion:**
 
 **¿Cómo jugar?**
-
+   **>Instala Visual Studio Code**
+       - Abra un explorador web y vaya a code.visualstudio.com.
+       - Descargue la versión del sistema operativo. Visual Studio Code es compatible con Windows, Linux y macOS.
+       - Una vez descargado, ejecute el instalador.
+       - Abre el VS code desde la terminal usando ctrl + alt + T y escribe la palabra "code"
+      Installar visualstudio code version 1.105.1
+   
+   **>Verificar el lenguaje de programacion intalado python**
+       - Ve al sitio web oficial de Python (python.org), busca la versión 3.12.3 y descargarlo
+       - Una vez descargado, abre el archivo instalador.
+       - para abrirlo despues de finalizar la instalacion debes hacerlo desde la terminal usando ctrl + alt + T y escribe la frese  "python --version" y deberia               mostrarte lo siguiente:   Python 3.12.3
+   
    **> Descarga el juego**
    Primero, baja el archivo del juego desde este repositorio (Enlace/Clonar este repositorio).
 
